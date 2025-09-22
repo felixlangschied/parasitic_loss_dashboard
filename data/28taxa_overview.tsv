@@ -1,0 +1,29 @@
+order	name	assembly_id	source	parasitism	shortname	taxid
+Lamiales	Pedicularis kansuensis		figshare	hemi	Pkansuensis	321409
+Santalales	Santalum album_tanxiang		figshare	hemi	Salbum	35974
+Lamiales	Castilleja foliolosa	GCA_046119335.1	GenBank	hemi	Cfoliolosa	1961234
+Solanales	Cuscuta europaea	GCA_945859875.1	GenBank	holo	Ceuropaea	41803
+Lamiales	Phtheirospermum japonicum	GCA_014905375.1	GenBank	hemi	Pjaponicum	374723
+Santalales	Balanophora subcupularis	GWHDONJ00000000	ngdc_GWH	holo	Bsubcupularis	2874248
+Lamiales	Orobanche cernua_cumana	GWHBHPV00000000 	ngdc_GWH	holo	Ocernua	53590
+Lamiales	Phelipanche aegyptiaca	GWHBHPU00000000 	ngdc_GWH	holo	Paegyptiaca	99112
+Santalales	Malania oleifera	GCF_029873635.1	RefSeq	hemi	Moleifera	397392
+Lamiales	Striga hermonthica	GCA_902706635.1	GenBank	holo	Shermonthica	68872
+Vitales	Vitis vinifera	GCF_030704535.1	RefSeq	non	Vvinifera	29760
+Rosales	Malus domestica	GCF_042453785.1	RefSeq	non	Mdomestica	3750
+Sapindales	Citrus sinensis	GCF_022201045.2	RefSeq	non	Csinensis	2711
+Brassicales	Arabidopsis thaliana	GCF_000001735.4	RefSeq	non	Athaliana	3702
+Solanales	Solanum lycopersicum	GCF_036512215.1	RefSeq	non	Slycopersicum	4081
+Apiales	Daucus carota	GCF_001625215.2	RefSeq	non	Dcarota	79200
+Ericales	Rhododendron vialii	GCF_030253575.1	RefSeq	non	Rvialii	182163
+Cucurbitales	Cucumis sativus	GCF_000004075.3	RefSeq	non	Csativus	3659
+Asterales	Lactuca sativa	GCF_002870075.4	RefSeq	non	Lsativa	4236
+Caryophyllales	Beta vulgaris	GCF_026745355.1	RefSeq	non	Bvulgaris	3555
+Lamiales	Salvia miltiorrhiza	GCF_028751815.1	RefSeq	non	Smiltiorrhiza	226208
+Gentianales	Coffea arabica	GCF_003713225.1	RefSeq	non	Carabica	13443
+Myrtales	Eucalyptus grandis	GCF_016545825.1	RefSeq	non	Egrandis	71139
+Fabales	Vigna angularis	GCF_016808095.1	RefSeq	non	Vangularis	3914
+Malpighiales	Populus nigra	GCF_951802175.1	RefSeq	non	Pnigra	3691
+Malvales	Gossypium raimondii	GCF_025698545.1	RefSeq	non	Graimondii	29730
+Celastrales	Tripterygium wilfordii	GCF_013401445.1	RefSeq	non	Twilfordii	458696
+Fagales	Alnus glutinosa	GCF_958979055.1	RefSeq	non	Aglutinosa	3517
