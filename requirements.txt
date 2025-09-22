@@ -2,5 +2,6 @@ pandas
 scipy
 numpy
 plotly
+ete3
 matplotlib
 seaborn
