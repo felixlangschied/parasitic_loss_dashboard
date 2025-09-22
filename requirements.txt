@@ -5,3 +5,4 @@ plotly
 ete3
 matplotlib
 seaborn
+voila
