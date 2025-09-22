@@ -6,3 +6,4 @@ ete3
 matplotlib
 seaborn
 voila
+ipywidgets

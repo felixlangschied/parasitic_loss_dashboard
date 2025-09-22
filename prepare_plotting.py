@@ -88,14 +88,12 @@ def prepare_for_heatmap(df, taxadf, ath_protid2annotation, mode, nonparasitic, h
 
     xlabels = long_xlabels(taxadf, col_names)
     ylabels = [f'OG{i+1}' for i in df.index.to_list()]
-    
     heatmap_df = df != "*"
     row_order = cluster_return_row_order(heatmap_df)
     heatmap_df = heatmap_df.iloc[row_order, :]
-    heatmap_df = heatmap_df.astype(int).replace(0, np.nan)
+    heatmap_df = heatmap_df.astype(int).replace(0, None)
     heatmap_df = change_values_per_category(heatmap_df, nonparasitic, hemiparasites, holoparasites)
 
-    
     
     label_df = df.iloc[row_order, :]
     anno_df = generate_Athaliana_annotation_df(label_df, ath_protid2annotation, mode)
