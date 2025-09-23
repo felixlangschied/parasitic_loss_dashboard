@@ -2,8 +2,4 @@ pandas
 scipy
 numpy
 plotly
-matplotlib
-seaborn
-voila
-ipywidgets
-anywidget
+dash
