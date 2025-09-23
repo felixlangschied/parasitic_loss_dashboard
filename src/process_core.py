@@ -1,6 +1,6 @@
 from math import ceil
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
 
 def filter_with_specnamelist(df, grouplist):
@@ -13,13 +13,13 @@ def find_core_indices(df, core_factor):
     return df.index[mask].tolist()
 
 
-def count_and_plot_geneloss(df):
-    sns.set(rc={'figure.figsize':(6,4), 'ytick.left': False, 'xtick.bottom': False}, font_scale = 1, style='whitegrid')
-    gene_loss = df.columns.size - df.sum(axis=1)
-    sns.histplot(gene_loss, discrete=True)
-    plt.title(f'Number of non-parasitic core genes: {gene_loss.index.size}')
-    plt.xticks(range(0,gene_loss.max() + 1))
-    plt.xlabel('Non-parasitic core genes lost in X parasitic plants')
+# def count_and_plot_geneloss(df):
+#     sns.set(rc={'figure.figsize':(6,4), 'ytick.left': False, 'xtick.bottom': False}, font_scale = 1, style='whitegrid')
+#     gene_loss = df.columns.size - df.sum(axis=1)
+#     sns.histplot(gene_loss, discrete=True)
+#     plt.title(f'Number of non-parasitic core genes: {gene_loss.index.size}')
+#     plt.xticks(range(0,gene_loss.max() + 1))
+#     plt.xlabel('Non-parasitic core genes lost in X parasitic plants')
     
     
 def find_lost_core_genes(df, loss_factor):
