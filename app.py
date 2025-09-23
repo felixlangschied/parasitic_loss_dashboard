@@ -30,6 +30,7 @@ with open(ath_anno_path) as fh:
 # ---------------------------------------------------------------------------------------
 # Initialize the app
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Phylogenetic tree of plant species", style={'fontFamily': 'Arial, sans-serif'}),
