@@ -1,0 +1,12 @@
+name: my-dashboard-env
+channels:
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - pandas
+  - scipy
+  - numpy
+  - plotly
+  - dash
+  - ipywidgets
