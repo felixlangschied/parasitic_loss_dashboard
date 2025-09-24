@@ -118,5 +118,5 @@ def update_heatmap(core_factor, loss_factor, propagate):
     return fig
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8051)
 
