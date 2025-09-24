@@ -1,6 +1,12 @@
 # Explore loss of core genes in parasitic plants
 
-## Installation
+## Using the HTML
+
+* Download the Directory from Github
+* Double-Click the `dash_app.html` file
+
+
+## Installation (just to tweak the code)
 
 ### Using Mamba
 
@@ -13,12 +19,11 @@ mamba create -n loss_dashboard --file requirements.txt
 mamba activate loss_dashboard
 ```
 
-* Start the dashboard using either the Jupyter notebook or the App file
-
-```
-jupyter notebook dash_app.ipynb
-```
-or
+* Start the dashboard using the following command (runs on Port 8051)
 ```
 python app.py
 ```
+* If the dashboard is not directed to your Browser, paste the link in the terminal manually.
+
+
+## Static image of default output
