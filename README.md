@@ -15,6 +15,6 @@ mamba activate loss_dashboard
 
 * Start the dashboard using either the Jupyter notebook or the App file
 
-`jupyter notebook dash_app.ipynb`
+```jupyter notebook dash_app.ipynb```
 or
-`python app.py`
+```python app.py```
