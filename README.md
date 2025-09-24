@@ -1,5 +1,7 @@
 # Explore loss of core genes in parasitic plants
 
+<img src="assets/28_parasiticplants_tree.png" alt="hylogenetic tree of data set" width="50%"/>
+
 ## Using the HTML
 
 * Download the Directory from Github
